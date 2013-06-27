@@ -1,3 +1,4 @@
+
 /*    */ import java.awt.Image;
 /*    */ import java.io.PrintStream;
 /*    */ import java.util.Random;
