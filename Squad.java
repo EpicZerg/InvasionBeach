@@ -1,3 +1,4 @@
+
 /*    */ import java.util.ArrayList;
 /*    */ import java.util.Random;
 /*    */ 
@@ -14,6 +15,7 @@
 /*    */   public static void deployment()
 /*    */   {
 /* 16 */     Random r = new Random();
+			if (squadUnits.size() > 0) {
 /* 17 */     Unit leader = (Unit)squadUnits.get(0);
 /* 18 */     for (int i = 1; i < squadUnits.size(); i++)
 /* 19 */       switch (i) {
@@ -32,5 +34,6 @@
 /* 32 */         ((Unit)squadUnits.get(3)).setBestPosY(leader.getY() + 28 + r.nextInt(9));
 /* 33 */         ((Unit)squadUnits.get(3)).setMoveTo(true);
 /*    */       }
+			}
 /*    */   }
 /*    */ }

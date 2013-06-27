@@ -1,3 +1,4 @@
+
 /*    */ public class CombatText
 /*    */ {
 /*  4 */   public int timer = 0; public int duration = 1000;

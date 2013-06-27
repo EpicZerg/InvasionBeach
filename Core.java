@@ -1,3 +1,4 @@
+
 /*     */ import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -722,11 +723,11 @@ import javax.swing.JFrame;
 /*     */   public static void spawnUnits(int x, int y) {
 /* 747 */     units.add(new Commander(x - 10, y - 15, 0, 0));
 /* 748 */     commander = (Unit)units.get(0);
-/* 749 */     units.add(new Radio(x - 10, y - 15, 0, 0));
+/* 749 */     units.add(new Radio(x - 0, y - 15, 0, 0));
 /* 750 */     radio = (Unit)units.get(1);
-/* 751 */     units.add(new Engineer(x - 10, y - 15, 0, 0));
+/* 751 */     units.add(new Engineer(x + 10, y - 15, 0, 0));
 /* 752 */     engineer = (Unit)units.get(2);
-/* 753 */     units.add(new MachineGunner(x - 10, y - 15, 0, 0));
+/* 753 */     units.add(new MachineGunner(x + 20, y - 15, 0, 0));
 /* 754 */     machinegunner = (Unit)units.get(3);
 /*     */ 
 /* 757 */    
